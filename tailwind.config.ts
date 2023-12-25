@@ -4,6 +4,10 @@ const config: Config = {
   content: ['./src/**/*.tsx'],
   theme: {
     extend: {
+      maxWidth: {
+        app: '700px',
+        web: '1118px',
+      },
       colors: {
         green: '#6FCF97',
         background: '#1D1D1D',

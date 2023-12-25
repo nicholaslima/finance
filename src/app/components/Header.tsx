@@ -5,28 +5,27 @@ import { HiBars3BottomRight } from 'react-icons/hi2'
 
 export function Header() {
   return (
-    <header className="w-[1118px] mx-auto pt-[64px] flex items-center justify-between">
-      <ul className="flex gap-[25px]">
+    <header className="max-w-web mx-auto pt-16 flex items-center justify-between">
+      <ul className="flex gap-6">
         <li>
-          <FiTwitter color="#02B15A" className="h-[20px] w-[20px]" />
+          <FiTwitter color="#02B15A" className="h-5 w-5" />
         </li>
         <li>
-          <FaMedium color="#02B15A" className="h-[20px] w-[20px]" />
+          <FaMedium color="#02B15A" className="h-5 w-5" />
         </li>
         <li>
-          <FaFacebook
-            color="#02B15A"
-            className="stroke-green300 h-[20px] w-[20px]"
-          />
+          <FaFacebook color="#02B15A" className="stroke-green300 h-5 w-5" />
         </li>
       </ul>
 
       <div className="flex items-center">
-        <MdOutlineAttachMoney color="#02B15A" className="h-[50px] w-[40px]" />
-        <p className="text-white font-[600] text-[20px]">Finance</p>
+        <MdOutlineAttachMoney color="#02B15A" className="h-12 w-12" />
+        <p className="text-white font-semibold text-2xl tracking-wide">
+          Finance
+        </p>
       </div>
 
-      <HiBars3BottomRight color="#02B15A" className="h-[34px] w-[34px]" />
+      <HiBars3BottomRight color="#02B15A" className="h-8 w-8" />
     </header>
   )
 }
