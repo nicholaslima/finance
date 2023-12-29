@@ -7,6 +7,7 @@ const config: Config = {
       maxWidth: {
         app: '700px',
         web: '1118px',
+        large: '1200px',
       },
       width: {
         ButtonLg: '241px',
