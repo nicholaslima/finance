@@ -8,6 +8,9 @@ const config: Config = {
         app: '700px',
         web: '1118px',
       },
+      width: {
+        ButtonLg: '241px',
+      },
       colors: {
         green: '#6FCF97',
         background: '#1D1D1D',
@@ -23,7 +26,9 @@ const config: Config = {
         redOpacity: 'rgba(235, 0, 27, 0.15)',
         red: '#E41414',
         gray400: 'rgba(174, 171, 216, 0.53)',
-        gray100: '#AEABD8',
+        gray100: '#d2d2d2',
+        gray200: '#AEABD8',
+        gray300: '#A9A9A9',
         white: '#FFF',
       },
     },
