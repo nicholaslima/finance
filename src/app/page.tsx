@@ -1,12 +1,14 @@
 import Image from 'next/image'
 import { Header } from './components/Header'
+import { BackgroundSVG } from './components/BackgroundSVG'
 
 export default function Home() {
   return (
-    <div className="bg-background min-h-screen relative">
+    <div className="bg-background min-h-screen relative ">
+      <BackgroundSVG />
       <Header />
       <div className="mx-auto max-w-large ">
-        <main className="flex items-center justify-between mt-5">
+        <main className="flex items-center justify-between mt-5 z-20">
           <section className="space-y-16">
             <div className="space-y-7">
               <h1 className="text-gray300 text-4xl font-bold">

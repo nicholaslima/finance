@@ -12,6 +12,10 @@ const config: Config = {
       width: {
         ButtonLg: '241px',
       },
+      backgroundImage: {
+        ellipseVerdeLogin: "url('/imgs/fundo.svg')",
+        ellipseCinzaLogin: "url('/imgs/fundo2.svg)",
+      },
       colors: {
         green: '#6FCF97',
         background: '#1D1D1D',
