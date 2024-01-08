@@ -9,6 +9,9 @@ const config: Config = {
         web: '1118px',
         large: '1200px',
       },
+      gridTemplateColumns: {
+        layout: 'minmax(10rem,20rem) 1fr',
+      },
       width: {
         ButtonLg: '241px',
       },
