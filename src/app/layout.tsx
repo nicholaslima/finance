@@ -8,7 +8,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-br" className="antialiased">
       <body className={overpass.className}>
         <div className="min-h-screen">{children}</div>
       </body>
